@@ -1,0 +1,111 @@
+#logo{
+	
+background-color: transparent;
+height: 130px;
+
+
+
+}
+.line{
+	height: 1px;
+	padding:0px 0px 0px 0px;
+	background: #000;
+
+}
+
+img.logo{
+	padding-top: 20px;
+
+}
+
+body{
+	height: 600px;
+	background-image: url("../images/HsOME.jpg") ;
+	background-color: #FFF;
+}
+.header{
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+#nav{
+	font-size:0.87em;
+	font-weight: bold;
+	line-height: 20px;
+	/*background-color: #3F4;*/
+	margin-top: 60px;
+	height: 100px;
+	
+}
+.menu{
+	margin-bottom: 10px;
+
+}
+.menuDir{
+	margin-top: 10px;
+
+}
+.menuDir p{
+	
+	font-size 0.37em;
+	font-weight: bold;
+	margin: 0px;
+	line-height: 1.3em;
+}
+
+#homeImage{
+	margin-top: 30px;
+	
+	background-color: #343;
+	height: 500px;
+}
+
+.container{
+	
+	background-color: #FFF;
+	
+}
+.container_b{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	
+}
+
+.widget{
+	margin-top: 20px;
+	height: 200px;
+	background: #333;
+}
+.logoFooter{
+	margin-top: 0px;
+
+}
+#social{
+margin-right: 0px;
+	/*visibility: hidden;*/
+}
+.right{
+position:absolute;
+right:0px;
+
+
+}
+
+.map{
+	margin-top: 2px;
+	left: -20px;
+}
+.footer{
+	line-height: 1.24em;
+	font-size: 0.8em;
+	margin-top: 20px;
+	height: 100px;
+	background: #FFF;
+}
+.footer p{
+	
+	margin: 0px;
+	line-height: 1.4em;
+}
