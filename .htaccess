@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule directores/director/(.*)/ directores.php?director=$1
+RewriteRule directores/director/(.*) directores.php?director=$1					
+RewriteRule services/location/(.*)/ services.php?location=$1
+RewriteRule services/location/(.*) services.php?location=$1		
+RewriteRule services/ services.php?location=0
+RewriteRule services services.php?location=0					
+RewriteRule about/ about.php?location=0
+RewriteRule about about.php?location=0		

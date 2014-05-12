@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CaeciliaLTStd85Heavy';
+    src: url('caecilialtstd-heavy.eot');
+    src: url('caecilialtstd-heavy.eot') format('embedded-opentype'),
+         url('caecilialtstd-heavy.woff') format('woff'),
+         url('caecilialtstd-heavy.ttf') format('truetype'),
+         url('caecilialtstd-heavy.svg#CaeciliaLTStd85Heavy') format('svg');
+}

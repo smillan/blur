@@ -1,6 +1,11 @@
 <div class="band">
 	<div class="container ">
-		<?php region('ShowWidgets') ;?>
+		<?php $items = cockpit("collections")->collection("whatsnew")->find()->toArray(); 
+			
+			include "includes/homeWidgets.php";
+
+		?>
+
 		
 	
 

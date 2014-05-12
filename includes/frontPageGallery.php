@@ -1,4 +1,4 @@
-<?php
-// print_r($images);
-echo '<img src="'.cockpit()->pathToUrl($images[0]['path']).'">' ;
-?>
+<?php foreach ($images as $frontImage ) :?>
+	<?php echo thumbnail($frontImage['path'], 1000,500) ;?>
+
+	<?php endforeach; ?>

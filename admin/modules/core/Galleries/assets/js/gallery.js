@@ -25,7 +25,14 @@
 
             $scope.gallery = {
                 name: "",
-                fields:[{"name":"enNewsletter","type":"boolean"},{"name":"enWb","type":"boolean"},{"name":"cliente","type":"text"}, {"name":"agencia","type":"text"},{"name":"titulo","type":"text"},{"name":"video","type":"html"},{"name":"url","type":"text"}],
+                fields:[{"name":"enNewsletter","type":"boolean"},
+                        {"name":"enWeb","type":"boolean"},
+                        {"name":"enReel","type":"boolean"},
+                        {"name":"cliente","type":"text"}, 
+                        {"name":"agencia","type":"text"},
+                        {"name":"titulo","type":"text"},
+                        {"name":"video","type":"html"},
+                        {"name":"url","type":"text"}],
                 images: [],
                 group: ""
             };

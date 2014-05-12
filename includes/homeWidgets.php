@@ -2,10 +2,12 @@
 
 <?php foreach ($items as $item) :?> 
 		<div class="one-third column widget" >
+			
+			<?php echo thumbnail($item['imagen'], 300,200) ;?>
 
 		<?php  $gall= gallery($item['gallery']); 
 		echo $gall['name']." ";
-		print_r($gall);
+		//print_r($gall);
 		//echo '<img src="'.cockpit()->pathToUrl($item['path']).'">' ; 	?>
 				</div>
 	

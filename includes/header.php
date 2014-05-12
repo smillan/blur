@@ -5,27 +5,14 @@
 		<img src="images/logo.jpg" class="logo"> </div>
 
 		<div id="nav" class="twelve columns " >
-			<div class="two columns menu">DIRECTORES</div>  
-			<div class="two columns menu">SERVICES</div>  
-			<div class="two columns menu">ABOUT</div> 
-			<div class="three columns menu">BLOG</div> 
+			<div class="two columns menu"><a href="index.php/directores/">DIRECTORES</a></div>  
+			<div class="two columns menu"><a href="services">SERVICES</div>  
+			<div class="two columns menu"><a href="/">ABOUT</div> 
+			<div class="three columns menu"><a href="/">BLOG</div> 
 			<div class="twelve columns line"></div>
 		
+			<?php region('directoresMenu') ?>
 			
-			<div class="two columns menuDir">
-				<p>HUGO</p>
-				<p>NICO</p>
-				<p>TIANL</p>
-			</div>  
-			<div class="two columns menuDir">
-				<p>MARRC</p>
-				<p>THELOVER</p>
-				<p>HUGO</p></div> 
-			<div class="three columns menuDir">
-				<p>LOBNG MOTHERFUKER</p>
-				<p>HUGO</p>
-				<p>HUGO</p>
-			</div> 
 
 		</div>
 		<div class="sixteen columns line"></div>
@@ -33,4 +20,4 @@
 		
 
 	</div>
-</div>
+</div>	

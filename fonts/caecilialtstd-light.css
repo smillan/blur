@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CaeciliaLTStd45Light';
+    src: url('fonts/caecilialtstd-light.eot');
+    src: url('fonts/caecilialtstd-light.eot') format('embedded-opentype'),
+         url('fonts/caecilialtstd-light.woff') format('woff'),
+         url('fonts/caecilialtstd-light.ttf') format('truetype'),
+         url('fonts/caecilialtstd-light.svg#CaeciliaLTStd45Light') format('svg');
+}
