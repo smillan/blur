@@ -11,4 +11,5 @@
 
 
 
-	</div>
+	</div> <!-- close container -->
+</div> <!-- close band -->

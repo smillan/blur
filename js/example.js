@@ -1,5 +1,5 @@
 $(function(){
-	$('#my-image-1').imageFitWindow({
+	$('#slider').imageFitWindow({
 		onFit:function(){
 			console.log('fit')
 		},

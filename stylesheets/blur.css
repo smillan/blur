@@ -1,3 +1,8 @@
+band{
+	margin-top: -50px;
+	padding-top: 0;
+}
+
 #logo{
 	
 background-color: transparent;
@@ -109,20 +114,23 @@ body{
 }
 
 #homeImage{
-	margin-top: 30px;
 	
-	background-color: #343;
-	height: 500px;
+	
+	background-color: #FFF;
+
 }
 #slider { 
-position: relative;
-overflow: hidden;
-width: 1000px; 
-height: 500px; 
-border:0px solid #333;
-border-radius: 0px;
-margin: 0 auto;
-padding: 0;
+	position: relative;
+	overflow: hidden;
+	float:center;
+
+	height: 500px; 
+	max-width: 1100px;
+	border:0px solid #333;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
 }
 
 #slider > div {
@@ -145,7 +153,7 @@ position: absolute;
 bottom: 150px;
 left: 0;
 /*background: #FF4;*/
-width: 1000px;
+width: 100%;
 height: 124px;
 margin:0;
 padding: 5px 0;
@@ -155,7 +163,34 @@ font-size: 2em;
 line-height: 15px;
 text-align:center;
 }
-
+.full{
+		width:1000px;
+		height:50%;
+		background-color: #000;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+	}
+	.boxSep{
+		/*background-color:#000;*/
+		border: 1px solid #ddd;
+		margin:10px;
+		float:left;
+		margin-right:30px;
+		width: 100%;
+	}
+	.imgLiquid{
+		width: 100%;
+		height: 500px;
+	}
+	.LogSep{
+		margin:10px;
+	}
+	.imgLiquidFill{
+		width: 100%;
+		height: 500px;
+	}
 #lineH{
 	/*position: absolute;*/
 	background: #FFF;
@@ -165,18 +200,77 @@ text-align:center;
 	
 	}
 
+.navArrow{
+	/*vertical-align: middle;*/
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	opacity:0.8;
+	margin-top: -30px;
+}
+#navLeft{
+	/*vertical-align: middle;*/
+	position: relative;
+	top:290px;
+	z-index: 5;
+	display: inline;
+    /*vertical-align: middle;*/
 
-
-.container{
+	opacity:0.8;
+	width: 100px;
 	
-	background-color: #FFF;
+	padding-left: 10px;
 	
 }
-.container_b{
-	width: 100%;
+#navRight{
+	position: relative;
+	display: inline;
+	top:280px;
+	z-index: 50;
+		padding-right: 10px;
+
+ 	float: right;
+ 	
+	opacity:0.8;
+
+	
+	
+}
+
+
+
+
+.pink{
+	background: #F0F;
+	border: 1px solid #ddd;
+	
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFF;
+		margin-top: 0px;
+		max-width: 1100px;
+		max-height: 150px;
+		width: 90%;
+}
+.imgNav{
+		width: 100%;
+		height: 50px;
+		margin-top: 9px;
+		margin-right: 90px;
+	}
+#cNav{
+	font-family: 'CaeciliaLTStd85Heavy', serif;
+	margin-top: 0px;
+	text-align: center;
+ 	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+
+}
+.container_b{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F4F;
 	
 }
 
@@ -385,3 +479,8 @@ right:0px;
 	}
 
 
+#loginReel{
+	padding: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -4,7 +4,18 @@ RewriteRule directores/director/(.*)/ directores.php?director=$1
 RewriteRule directores/director/(.*) directores.php?director=$1					
 RewriteRule services/location/(.*)/ services.php?location=$1
 RewriteRule services/location/(.*) services.php?location=$1		
+RewriteRule showReel/name/(.*)/ showreel.php?name=$1
+RewriteRule showReel/name/(.*) showreel.php?name=$1	
+RewriteRule makeShowReel/name/(.*)/ makeShowReel.php?name=$1
+RewriteRule makeShowReel/name/(.*) makeShowReel.php?name=$1	
+RewriteRule videoclips/ videoclips.php
+RewriteRule videoclips videoclips.php
+RewriteRule allShowReels/ allShowReels.php
+RewriteRule allShowReels allShowReels.php
+RewriteRule flop/ flop.php
+RewriteRule flop flop.php
 RewriteRule services/ services.php?location=0
 RewriteRule services services.php?location=0					
 RewriteRule about/ about.php?location=0
 RewriteRule about about.php?location=0		
+AddHandler application/x-httpd-php .htm .html

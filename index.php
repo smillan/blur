@@ -54,11 +54,14 @@
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
 	<link rel="stylesheet" href="stylesheets/blur.css">
+	<link rel="stylesheet" href="stylesheets/resetI.css">
+
 	<link rel="stylesheet" href="stylesheets/example.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	      <script src="js/jquery.image-fit-window.js"></script>
-	      <script src="js/example.js"></script>
+	<script src ="js/imgLiquid.js" type="text/javascript"></script>
+
+	     
 
 
 	<!--[if lt IE 9]>
