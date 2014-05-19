@@ -29,7 +29,6 @@ ob_start();
 	<link rel="stylesheet" href="http://localhost:8888/blur/stylesheets/skeleton.css">
 	<link rel="stylesheet" href="http://localhost:8888/blur/stylesheets/layout.css">
 	<link rel="stylesheet" href="http://localhost:8888/blur/stylesheets/blur.css">
-	<link rel="stylesheet" href="http://localhost:8888/blur/stylesheets/blur_tablet.css">
 	<link rel="stylesheet" type="text/css" href="../..stylesheets/default.css" />
 
 
@@ -77,7 +76,7 @@ ob_start();
 
 	<script src="http://localhost:8888/blur/js/modernizr.custom.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="http://localhost:8888/blur/js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+		 <script src="http://localhost:8888/blur/js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
 
 	
 		<!-- Favicons
@@ -89,6 +88,30 @@ ob_start();
 
 </head>
 
+<?php
+// Define your username and password
+$username = "u";
+$password = "p";
+
+if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
+
+?>
+<div id="loginReel">	
+<img src="http://localhost:8888/blur/images/logo.jpg" class="logo"></a> <h1>Staff Only</h1>
+<form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+<label for="txtUsername">Username:</label>
+<input type="text" title="Enter your Username" name="txtUsername" />
+<label for="txtpassword">Password:</label>
+<input type="password" title="Enter your password" name="txtPassword" />
+<input type="submit" name="Submit" value="Login" />
+</form>
+</div>
+<?php
+
+}
+else {
+
+?>
 <body>
 
 
@@ -100,7 +123,7 @@ ob_start();
 
 <?php include "includes/header_d.php";?>
 
-<?php include "includes/allReelMakeBody.php";?>
+<?php include "includes/dirReel.php";?>
 
 <?php include "includes/footer_d.php";?>
 <!-- 
@@ -119,7 +142,13 @@ ob_start();
 
 
 <?php
-//echo $nombre;
+echo '1';
 // Get the content that is in the buffer and put it in your file //
-file_put_contents("showreels/".$nombre.".html", ob_get_contents());
+file_put_contents('yourpage.html', ob_get_contents());
+?>
+
+<?php
+
+      }
+
 ?>

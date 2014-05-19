@@ -54,6 +54,8 @@
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
 	<link rel="stylesheet" href="stylesheets/blur.css">
+	<link rel="stylesheet" href="stylesheets/blur_tablet.css">
+	
 	<link rel="stylesheet" href="stylesheets/resetI.css">
 
 	<link rel="stylesheet" href="stylesheets/example.css">
@@ -86,7 +88,7 @@
 
 	<!-- Delete everything in this .container and get started on your own site! -->
 
-<?php include "includes/header_d.php";?>
+<?php include "includes/header_divs.php";?>
 
 <?php include "includes/home_image.php";?>
 
